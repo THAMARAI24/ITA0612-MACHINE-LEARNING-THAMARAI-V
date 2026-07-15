@@ -1,0 +1,5 @@
+w = float(input("Weight: "))
+h = float(input("Height: "))
+bmi = w/(h*h)
+print("BMI:", round(bmi,2))
+print("Healthy" if bmi<25 else "Overweight")
