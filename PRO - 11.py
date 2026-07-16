@@ -1,0 +1,5 @@
+dhrs = int(input("Hours: "))
+print("Fee:", hrs*30) = float(input("Distance: "))
+m = float(input("Mileage: "))
+p = float(input("Fuel Price: "))
+print("Cost:", (d/m)*p)
